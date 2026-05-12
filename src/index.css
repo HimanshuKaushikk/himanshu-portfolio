@@ -8,13 +8,14 @@
   }
   
   .glass {
-    @apply bg-white/5 backdrop-blur-md border border-white/10;
+    @apply bg-white/5 backdrop-blur-sm border border-white/10;
   }
 }
 
-html {
+html, body {
   scrollbar-width: thin;
   scrollbar-color: #3b82f6 #0a0a0a;
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {

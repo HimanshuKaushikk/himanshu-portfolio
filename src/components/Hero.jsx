@@ -5,8 +5,8 @@ import { FileText, Github, Linkedin, Mail, ChevronDown } from 'lucide-react';
 const Hero = () => {
   return (
     <section id="home" className="min-h-screen flex items-center justify-center pt-28 pb-12 px-6 md:px-12 relative overflow-hidden">
-      {/* Background Gradient Blob */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] md:w-[600px] md:h-[600px] bg-primary/20 rounded-full blur-[80px] md:blur-[120px] opacity-50 pointer-events-none" />
+      {/* Background Gradient Blob (Optimized for performance) */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[300px] md:w-[600px] md:h-[600px] bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-primary/20 to-transparent rounded-full opacity-50 pointer-events-none" />
 
       <div className="container mx-auto max-w-6xl z-10 grid md:grid-cols-2 gap-12 items-center text-center md:text-left mt-8 md:mt-0">
         <motion.div 
@@ -63,8 +63,8 @@ const Hero = () => {
         >
           {/* Profile Photo */}
           <div className="relative w-64 h-64 sm:w-72 sm:h-72 md:w-96 md:h-96 group">
-            {/* Animated Glow Behind Image */}
-            <div className="absolute inset-0 bg-gradient-to-tr from-primary to-accent rounded-full blur-2xl opacity-40 group-hover:opacity-70 transition-opacity duration-500 animate-pulse" />
+            {/* Animated Glow Behind Image (Optimized) */}
+            <div className="absolute inset-0 bg-gradient-to-tr from-primary to-accent rounded-full blur-xl opacity-40 group-hover:opacity-70 transition-opacity duration-500" />
             
             {/* Image Container with Gradient Border */}
             <div className="relative w-full h-full rounded-full p-2 bg-gradient-to-tr from-primary to-accent overflow-hidden shadow-2xl">

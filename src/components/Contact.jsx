@@ -71,7 +71,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-gray-500">Email</p>
-                  <p className="text-white font-medium group-hover:text-primary transition-colors">sharma.himanshu8886@gmail.com</p>
+                  <p className="text-white font-medium group-hover:text-primary transition-colors break-all">sharma.himanshu8886@gmail.com</p>
                 </div>
               </a>
               
